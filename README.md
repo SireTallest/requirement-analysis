@@ -67,8 +67,7 @@ Requirement Analysis is the process of identifying, documenting, and validating 
 
 ## Acceptance Criteria
    ### Importance of Acceptance Criteria in Requirement Analysis
-
-    Acceptance Criteria are the conditions that a software feature must meet to be considered complete and acceptable by stakeholders. They serve as a clear checklist for developers, testers, and clients.
+Acceptance Criteria are the conditions that a software feature must meet to be considered complete and acceptable by stakeholders. They serve as a clear checklist for developers, testers, and clients.
 
    #### *Why they are important:*
 
