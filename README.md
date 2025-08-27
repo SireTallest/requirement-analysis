@@ -41,7 +41,7 @@ Requirement Analysis is the process of identifying, documenting, and validating 
 
 ## Types of Requirements
 
- ### ⚙️ Functional Requirements and its examples
+ ### ⚙️ Functional and Non Functional Requirements and their examples
 |   Definition                      |   Examples, using the case study |
 |-----------------------------------|----------------------------------|
    Functional requirements are      |  Users search and book hotels
@@ -49,7 +49,7 @@ Requirement Analysis is the process of identifying, documenting, and validating 
   what the system should do, like   |  Manage hotel data & inventory
   the core services and features    |  Avoid double booking
    users interact with.             |  Send booking notifications
-                                    |
+|-----------------------------------|--------------------------------------|          
    Non Functional requirements      |  Scalability to millions of users
    define how the system should     |  High availability and fault tolerance
    perform and behave, covering     |  Fast response
