@@ -27,3 +27,35 @@ Requirement Analysis is the process of identifying, documenting, and validating 
 - Clear Understanding of Needs – It ensures developers and stakeholders share the same vision of what the software should achieve, preventing confusion and misaligned goals.
 - Efficient Use of Resources – By identifying requirements early, teams avoid unnecessary rework, saving time, cost, and effort during later stages of development.
 - Improved Software Quality – Well-defined requirements guide design, coding, and testing, ensuring the final product meets user expectations and performs reliably.
+
+## 🔑 Key Activities in Requirement Analysis.
+- Requirement Gathering: Collecting needs and expectations from stakeholders, users, and clients.
+
+- Requirement Elicitation: Using techniques like interviews, surveys, and workshops to draw out detailed requirements.
+
+- Requirement Documentation: Recording requirements in clear, structured formats (e.g., SRS – Software Requirement Specification).
+
+- Requirement Analysis and Modeling: Examining requirements for feasibility, consistency, and completeness, often representing them with models or diagrams.
+
+- Requirement Validation: Ensuring documented requirements align with stakeholder needs and are achievable within scope and constraints.
+
+## Types of Requirements
+
+ ### ⚙️ Functional Requirements and its examples
+|   Definition                      |   Examples, using the case study |
+|-----------------------------------|----------------------------------|
+   Functional requirements are      |  Users search and book hotels
+  the requirements that describe    |  View details
+  what the system should do, like   |  Manage hotel data & inventory
+  the core services and features    |  Avoid double booking
+   users interact with.             |  Send booking notifications
+                                    |
+   Non Functional requirements      |  Scalability to millions of users
+   define how the system should     |  High availability and fault tolerance
+   perform and behave, covering     |  Fast response
+   quality, performance, and        |  Strong consistency under concurrency
+   reliability.
+
+## Use Case Diagrams
+
+
