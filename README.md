@@ -103,8 +103,8 @@ A Use Case Diagram is a visual representation of how users (actors) interact wit
 
 - ⚡ __Identify User Roles__: Show how different users interact with the system and what features they access.
 
-### Diagram
-https://drive.google.com/file/d/1ECoDJ-QaIlZ_ozncGo41H2qhit3ulzaK/view?usp=sharing
+### Below is the use case diagram illustrating the main actors and their interactions with the system.
+![Use Case Diagram](alx-booking-uc.png)
 
 ## Acceptance Criteria
    ### Importance of Acceptance Criteria in Requirement Analysis
