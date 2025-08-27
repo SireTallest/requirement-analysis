@@ -10,34 +10,41 @@ Requirement Analysis is the process of identifying, documenting, and validating 
  *Importance in SDLC:*
 
 - Acts as the foundation for design, development, and testing.
+
 - Ensures all stakeholders share a common understanding of project goals.
+
 - Reduces scope creep, rework, and cost overruns.
+
 - Improves software quality by addressing real user needs.
 
 ## 💡 Why is Requirement Analysis Important?
 
-- Clarity of Goals: Ensures all stakeholders agree on what the software should achieve.
-- Foundation for Design & Development: Provides a blueprint for building the system correctly.
-- Cost & Time Efficiency: Prevents unnecessary rework, scope creep, and delays.
-- Quality Assurance: Helps deliver software that meets real user needs and expectations.
-- Risk Reduction: Identifies potential challenges early in the SDLC.
+- **Clarity of Goals**: Ensures all stakeholders agree on what the software should achieve.
+
+- **Foundation for Design & Development**: Provides a blueprint for building the system correctly.
+
+- **Cost & Time Efficiency**: Prevents unnecessary rework, scope creep, and delays.
+
+- **Quality Assurance**: Helps deliver software that meets real user needs and expectations.
+
+- **Risk Reduction**: Identifies potential challenges early in the SDLC.
 
 *🔑 Three key reasons why requirement analysis is critical in the SDLC*
 
-- Clear Understanding of Needs – It ensures developers and stakeholders share the same vision of what the software should achieve, preventing confusion and misaligned goals.
-- Efficient Use of Resources – By identifying requirements early, teams avoid unnecessary rework, saving time, cost, and effort during later stages of development.
-- Improved Software Quality – Well-defined requirements guide design, coding, and testing, ensuring the final product meets user expectations and performs reliably.
+- **Clear Understanding of Needs** : It ensures developers and stakeholders share the same vision of what the software should achieve, preventing confusion and misaligned goals.
+- **Efficient Use of Resources** : By identifying requirements early, teams avoid unnecessary rework, saving time, cost, and effort during later stages of development.
+- **Improved Software Quality** : Well-defined requirements guide design, coding, and testing, ensuring the final product meets user expectations and performs reliably.
 
 ## 🔑 Key Activities in Requirement Analysis.
-- Requirement Gathering: Collecting needs and expectations from stakeholders, users, and clients.
+- **Requirement Gathering**: Collecting needs and expectations from stakeholders, users, and clients.
 
-- Requirement Elicitation: Using techniques like interviews, surveys, and workshops to draw out detailed requirements.
+- **Requirement Elicitation**: Using techniques like interviews, surveys, and workshops to draw out detailed requirements.
 
-- Requirement Documentation: Recording requirements in clear, structured formats (e.g., SRS – Software Requirement Specification).
+- **Requirement Documentation**: Recording requirements in clear, structured formats (e.g., SRS – Software Requirement Specification).
 
-- Requirement Analysis and Modeling: Examining requirements for feasibility, consistency, and completeness, often representing them with models or diagrams.
+- **Requirement Analysis and Modeling**: Examining requirements for feasibility, consistency, and completeness, often representing them with models or diagrams.
 
-- Requirement Validation: Ensuring documented requirements align with stakeholder needs and are achievable within scope and constraints.
+- **Requirement Validation**: Ensuring documented requirements align with stakeholder needs and are achievable within scope and constraints.
 
 ## Types of Requirements
 
@@ -47,23 +54,54 @@ Requirement Analysis is the process of identifying, documenting, and validating 
 
    #### 🔖 Examples         
 
-- 👁️ View details : See hotel and room info such as availability, features, and pricing.
-- 🔍 Users search and book hotels :Find hotels/rooms by city, date, price, and amenities.
-- 🔔 Send booking notification : Notify users and hotel managers about reservations.
-- 🚫 Avoid double booking : Ensure the same room isn’t booked twice for the same time.
-- 🗂️ Manage hotel data & inventory : Add, update, or remove hotels, rooms, and pricing.      
+- 👁️ **View details** : See hotel and room info such as availability, features, and pricing.
+
+- 🔍 **Users search and book hotels** :Find hotels/rooms by city, date, price, and amenities.
+
+- 🔔 **Send booking notification** : Notify users and hotel managers about reservations.
+
+- 🚫 **Avoid double booking** : Ensure the same room isn’t booked twice for the same time.
+
+- 🗂️ **Manage hotel data & inventory** : Add, update, or remove hotels, rooms, and pricing.      
 
  ### ⚡  Non Functional requirements  and its examples 
    Non Functional requirements define how the system should perform and behave, covering quality, performance, and reliability.
 
    #### 🔖 Examples
 
-- 📈 Scalability: Support millions of users and bookings simultaneously.
-- 🔄 Consistency: Maintain strong data consistency even under high concurrency.
-- ♻️ High Availability & Fault Tolerance: Ensure uptime (e.g., 99.99%) and resilience against failures.
-- ⚡ Performance: Provide fast responses (e.g., search results under 500 ms).
+- 📈 **Scalability**: Support millions of users and bookings simultaneously.
 
-## Use Case Diagrams
+- 🔄 **Consistency**: Maintain strong data consistency even under high concurrency.
+
+- ♻️ **High Availability & Fault Tolerance**: Ensure uptime (e.g., 99.99%) and resilience against failures.
+
+- ⚡ **Performance**: Provide fast responses (e.g., search results under 500 ms).
+
+## 🎭 Use Case Diagrams
+
+A Use Case Diagram is a visual representation of how users (actors) interact with a system to achieve specific goals. It shows the system’s functional requirements by outlining different scenarios (use cases) where a user communicates with the system.
+
+ *🔑 Key Elements:*
+
+- 👤 **Actors**: Users or external systems that interact with the application.
+
+- 🟢 **Use Cases**: Actions or services the system provides (e.g., “Book Room,” “Make Payment”).
+
+- ⬜ **System Boundary**: Defines the scope of what the system will handle.
+
+- 🔗 **Relationships**: Connections showing how actors and use cases interact.
+
+    ### ✅ Benefits of Use Case Diagrams
+
+- 📌 __Clarify Requirements__: Help stakeholders and developers understand system functionality at a glance.
+
+- 🧭 __Define System Scope__: Clearly identifies what is inside or outside the system’s responsibility.
+
+- 👥 __Improve Communication__: Provide a simple, visual way for non-technical stakeholders to understand requirements.
+
+- 🛠️ __Guide Design & Testing__: Serve as a foundation for creating detailed system design and test cases.
+
+- ⚡ __Identify User Roles__: Show how different users interact with the system and what features they access.
 
 ## Acceptance Criteria
    ### Importance of Acceptance Criteria in Requirement Analysis
