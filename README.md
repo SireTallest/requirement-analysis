@@ -103,6 +103,9 @@ A Use Case Diagram is a visual representation of how users (actors) interact wit
 
 - ⚡ __Identify User Roles__: Show how different users interact with the system and what features they access.
 
+### Diagram
+https://drive.google.com/file/d/1ECoDJ-QaIlZ_ozncGo41H2qhit3ulzaK/view?usp=sharing
+
 ## Acceptance Criteria
    ### Importance of Acceptance Criteria in Requirement Analysis
 Acceptance Criteria are the conditions that a software feature must meet to be considered complete and acceptable by stakeholders. They serve as a clear checklist for developers, testers, and clients.
