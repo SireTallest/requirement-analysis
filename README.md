@@ -41,21 +41,61 @@ Requirement Analysis is the process of identifying, documenting, and validating 
 
 ## Types of Requirements
 
- ### ⚙️ Functional and Non Functional Requirements and their examples
-|   Definition                      |   Examples, using the case study |
-|-----------------------------------|----------------------------------|
-   Functional requirements are      |  Users search and book hotels
-  the requirements that describe    |  View details
-  what the system should do, like   |  Manage hotel data & inventory
-  the core services and features    |  Avoid double booking
-   users interact with.             |  Send booking notifications
-|-----------------------------------|--------------------------------------|          
-   Non Functional requirements      |  Scalability to millions of users
-   define how the system should     |  High availability and fault tolerance
-   perform and behave, covering     |  Fast response
-   quality, performance, and        |  Strong consistency under concurrency
-   reliability.
+ ### ⚙️ Functional Requirements and its examples
+
+   Functional requirements are the requirements that describe what the system should do, like the core services and features users interact with.    
+
+   #### 🔖 Examples         
+
+- 👁️ View details : See hotel and room info such as availability, features, and pricing.
+- 🔍 Users search and book hotels :Find hotels/rooms by city, date, price, and amenities.
+- 🔔 Send booking notification : Notify users and hotel managers about reservations.
+- 🚫 Avoid double booking : Ensure the same room isn’t booked twice for the same time.
+- 🗂️ Manage hotel data & inventory : Add, update, or remove hotels, rooms, and pricing.      
+
+ ### ⚡  Non Functional requirements  and its examples 
+   Non Functional requirements define how the system should perform and behave, covering quality, performance, and reliability.
+
+   #### 🔖 Examples
+
+- 📈 Scalability: Support millions of users and bookings simultaneously.
+- 🔄 Consistency: Maintain strong data consistency even under high concurrency.
+- ♻️ High Availability & Fault Tolerance: Ensure uptime (e.g., 99.99%) and resilience against failures.
+- ⚡ Performance: Provide fast responses (e.g., search results under 500 ms).
 
 ## Use Case Diagrams
 
+## Acceptance Criteria
+   ### Importance of Acceptance Criteria in Requirement Analysis
+
+    Acceptance Criteria are the conditions that a software feature must meet to be considered complete and acceptable by stakeholders. They serve as a clear checklist for developers, testers, and clients.
+
+   #### *Why they are important:*
+
+- ✅ Clarity: Define what “done” means, reducing ambiguity in requirements.
+
+- 🧭 Guidance: Provide developers with clear targets when implementing features.
+
+- 🧪 Testability: Help QA teams design test cases and verify functionality.
+
+- 🤝 Alignment: Ensure stakeholders, developers, and testers share the same expectations.
+
+- 🚫 Scope Control: Prevents scope creep by limiting development to agreed conditions.
+
+#### 🛒 Example: Checkout Feature – Acceptance Criteria
+- ✅ User must be able to review selected rooms, dates, and prices before payment.
+
+- ✅ System must calculate the total cost, including taxes and fees, correctly.
+
+- ✅ Checkout must support at least one secure payment method (e.g., credit card, PayPal).
+
+- ✅ Payment details must be validated before submission (e.g., card number format, expiration date).
+
+- ✅ On successful payment, the system must generate a booking confirmation with unique reservation ID.
+
+- ✅ On failed payment, the user must see a clear error message and be allowed to retry.
+
+- ✅ A notification (email/SMS) must be sent to the user after successful checkout.
+
+- ✅ The booking inventory must be updated immediately to prevent double booking.
 
